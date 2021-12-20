@@ -34,3 +34,9 @@ web:
             index: ['index.html']
             scripts: false
             allow: true
+
+source:
+  operations:
+    auto-update:
+      command: |
+        python scripts/autoupdate.py
